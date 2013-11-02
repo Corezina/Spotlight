@@ -1,0 +1,9 @@
+Light = Controller.Get Light()
+
+Foreach (Spotlight in Spotlights) 
+                
+               Spotlight.ActivateItem(Light)
+
+Sensor.SendStatus(Display)
+
+Display.ReflectStatus(Spotlights)
